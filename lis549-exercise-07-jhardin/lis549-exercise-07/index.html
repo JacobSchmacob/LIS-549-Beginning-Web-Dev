@@ -9,22 +9,25 @@
 </head>
 
 <body>
-  <header class="container-fluid"> <!--This might be incorrect.-->
+  <!--This might be incorrect for several reasons.-->
+  <header class="container-fluid text-light bg-dark py-5 mb-4">
     <div class="container">
       <h1>Playing Cards</h1>
-      <p class="text-light bg-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </div>
   </header>
 
   <main>
     <div clas="container">
       
-      <!-- Card 1 -->
-      <div class="card">
-        <img src="img/card-club-icon.png" alt="the club suit symbol">
-        <h2>Clubs</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
-        <a href="#">Play</a>
+      <!-- Card 1: I'm trying the styling on one first. -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <img src="img/card-club-icon.png" alt="the club suit symbol" class="pb-3">
+          <h2 class="card-title">Clubs</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
+          <a class="btn btn-dark" href="#" role="button">Play</a>
+        </div>
       </div>
 
       <!-- Card 2 -->
